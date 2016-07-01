@@ -1,6 +1,65 @@
 <resources>
     <string name="app_name">IstanbulGuide</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="historical_name_1">Hagia Sophia</string>
+    <string name="historical_address_1">Sultanahmet Mh., Ayasofya Meydanı</string>
+    <string name="historical_description_1">Hagia Sophia, "Holy Wisdom"; Latin: Sancta Sophia or Sancta Sapientia; Turkish: Ayasofya was a Greek Orthodox Christian patriarchal basilica, later an imperial mosque, and now a museum in Istanbul, Turkey.</string>
+    <string name="historical_lat_1">41.0086</string>
+    <string name="historical_lng_1">28.9802</string>
+
+    <string name="historical_name_2">Sultan Ahmed Mosque</string>
+    <string name="historical_address_2">At Meydanı No:7, 34122 Fatih</string>
+    <string name="historical_description_2">The Sultan Ahmed Mosque or Sultan Ahmet Mosque is a historic mosque in Istanbul, Turkey. The mosque is popularly known as the Blue Mosque for the blue tiles adorning the walls of its interior.</string>
+    <string name="historical_lat_2">41.0054</string>
+    <string name="historical_lng_2">28.9768</string>
+
+    <string name="historical_name_3">Topkapı Palace</string>
+    <string name="historical_address_3">Fatih</string>
+    <string name="historical_description_3">The Topkapı Palace or the Seraglio is a large palace in Istanbul, Turkey, that was one of the major residences of the Ottoman sultans for almost 400 years of their 624-year reign.</string>
+    <string name="historical_lat_3">41.0115</string>
+    <string name="historical_lng_3">28.9834</string>
+
+    <string name="historical_name_4">Basilica Cistern</string>
+    <string name="historical_address_4">Alemdar Mh., Yerebatan Cd. 1/3, 34410 Fatih</string>
+    <string name="historical_description_4">The Basilica Cistern, is the largest of several hundred ancient cisterns that lie beneath the city of Istanbul, Turkey.</string>
+    <string name="historical_lat_4">41.0084</string>
+    <string name="historical_lng_4">28.9779</string>
+
+    <string name="historical_name_5">Galata Tower</string>
+    <string name="historical_address_5">Bereketzade, Galata Kulesi, Beyoğlu</string>
+    <string name="historical_description_5">The Galata Tower — called Christea Turris by the Genoese — is a medieval stone tower in the Galata/Karaköy quarter of Istanbul, Turkey, just to the north of the Golden Horn\'s junction with the Bosphorus.</string>
+    <string name="historical_lat_5">41.0256</string>
+    <string name="historical_lng_5">28.9742</string>
+
+    <string name="historical_name_6">Grand Bazaar</string>
+    <string name="historical_address_6">Beyazıt Mh.</string>
+    <string name="historical_description_6">The Grand Bazaar in Istanbul is one of the largest and oldest covered markets in the world, with 61 covered streets and over 4,000 shops which attract between 250,000 and 400,000 visitors daily.</string>
+    <string name="historical_lat_6">41.0107</string>
+    <string name="historical_lng_6">28.9681</string>
+
+
+
+    <string name="park_name_1">Gülhane Parkı</string>
+    <string name="park_address_1">Cankurtaran Mh., 34122 Fatih</string>
+    <string name="park_description_1">Gülhane Park is a historical urban park in the Eminönü district of Istanbul, Turkey; it is located adjacent to and on the grounds of the Topkapı Palace. The south entrance of the park sports one of the larger gates of the palace.</string>
+    <string name="park_lat_1">41.0137</string>
+    <string name="park_lng_1">28.9814</string>
+
+    <string name="park_name_2">Emirgan Korusu</string>
+    <string name="park_address_2">Emirgan Mah., 34467 Emirgan</string>
+    <string name="park_description_2">The Emirgan Park is a historical urban park located at the Emirgan neighbourhood in the Sarıyer district of Istanbul, Turkey, on the European coast of the Bosphorus. It is one of the largest public parks in Istanbul.</string>
+    <string name="park_lat_2">41.1088</string>
+    <string name="park_lng_2">29.0519</string>
+
+    <string name="park_name_3">Yıldız Park</string>
+    <string name="park_address_3">Yıldız Mh., 34349 Beşiktaş</string>
+    <string name="park_description_3">Yıldız Park is a historical, urban park in Beşiktaş district of Istanbul, Turkey. It is one of the largest public parks in Istanbul. The park is located in Yıldız quarter between the palaces of Yıldız and Çırağan</string>
+    <string name="park_lat_3">41.0492</string>
+    <string name="park_lng_3">29.0119</string>
+
+
+
+
+
 </resources>

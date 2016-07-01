@@ -22,7 +22,7 @@ public class PlacesFragmentPagerAdapter extends FragmentPagerAdapter {
             case 1:
                 return new ParksFragment();
             case 2:
-                return new FoodFragment();
+                return new RestaurantsFragment();
             default:
                 return null;
         }
@@ -42,7 +42,7 @@ public class PlacesFragmentPagerAdapter extends FragmentPagerAdapter {
             case 1:
                 return "PARKS";
             case 2:
-                return "FOOD";
+                return "RESTAURANTS";
             default:
                 return super.getPageTitle(position);
         }
