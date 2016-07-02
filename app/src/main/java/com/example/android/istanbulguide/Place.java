@@ -27,7 +27,7 @@ public class Place {
     private int thumbResourceId = NO_IMAGE_PROVIDED;
 
     /** Constant value that represents no image was provided for this word */
-    private static final int NO_IMAGE_PROVIDED = -1;
+    static final int NO_IMAGE_PROVIDED = -1;
 
 
     /**
@@ -44,6 +44,7 @@ public class Place {
         this.name = name;
         this.address = address;
         this.description = description;
+
         this.imageResourceId = imageResourceId;
         this.thumbResourceId = thumbResourceId;
         this.lat = lat;
@@ -110,13 +111,17 @@ public class Place {
 
     // https://developers.google.com/maps/documentation/android-api/intents#display_a_map
     // geo:0,0?q=latitude,longitude(label)
-    public String creatMapsURI() {
+    public String getMapsURI() {
         return String.format("geo:%s,%s?q=%s,%s(%s)"
                 , lat
                 , lng
                 , lat
                 , lng
                 , name);
+    }
+
+    public boolean hasImage(){
+        return imageResourceId != NO_IMAGE_PROVIDED;
     }
 
 

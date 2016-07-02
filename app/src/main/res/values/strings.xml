@@ -39,7 +39,6 @@
     <string name="historical_lng_6">28.9681</string>
 
 
-
     <string name="park_name_1">Gülhane Parkı</string>
     <string name="park_address_1">Cankurtaran Mh., 34122 Fatih</string>
     <string name="park_description_1">Gülhane Park is a historical urban park in the Eminönü district of Istanbul, Turkey; it is located adjacent to and on the grounds of the Topkapı Palace. The south entrance of the park sports one of the larger gates of the palace.</string>
@@ -59,7 +58,36 @@
     <string name="park_lng_3">29.0119</string>
 
 
+    <string name="restaurant_name_1">Mikla</string>
+    <string name="restaurant_address_1">The Marmara Pera, Meşrutiyet Cd. No:15, 34430 Beyoğlu</string>
+    <string name="restaurant_description_1">Fine dining restaurant with contemporary styling and rooftop terrace, offering a tasting menu.</string>
+    <string name="restaurant_lat_1">41.0137</string>
+    <string name="restaurant_lng_1">28.9814</string>
 
+    <string name="restaurant_name_2">Çiya Sofrası</string>
+    <string name="restaurant_address_2">Caferağa, Güneşli Bahçe Sk. No:43, Kadikoy</string>
+    <string name="restaurant_description_2">Home-style regional Turkish cuisine in a simple restaurant on 3 floors with a rooftop terrace.</string>
+    <string name="restaurant_lat_2">41.1088</string>
+    <string name="restaurant_lng_2">29.0519</string>
+
+    <string name="restaurant_name_3">Kiyi Restaurant</string>
+    <string name="restaurant_address_3">Cumhuriyet, Haydar Aliyev Cd. No:186, 34457 Tarabya Sarıyer</string>
+    <string name="restaurant_description_3">Coastal restaurant and terrace, hung with art and photographs, serving Turkish fish and seafood.</string>
+    <string name="restaurant_lat_3">41.0492</string>
+    <string name="restaurant_lng_3">29.0119</string>
+
+
+    <string name="shopping_name_1">Forum İstanbul</string>
+    <string name="shopping_address_1">Kocatepe, Paşa Cd, 34045 Bayrampaşa</string>
+    <string name="shopping_description_1">Forum Istanbul shopping center is Europe\'s largest shopping center. The shopping mall employs 5,000 people and houses some 280 national and international shops</string>
+    <string name="shopping_lat_1">41.0137</string>
+    <string name="shopping_lng_1">28.9814</string>
+
+    <string name="shopping_name_2">İstanbul Cevahir AVM</string>
+    <string name="shopping_address_2">No:, Büyükdere Cd. No:22, 34400 Şişli</string>
+    <string name="shopping_description_2">Istanbul Cevahir Shopping and Entertaining Centre. As the largest shopping mall in the city center, İstanbul Cevahir offers its visitors world class shopping 365 shops</string>
+    <string name="shopping_lat_2">41.1088</string>
+    <string name="shopping_lng_2">29.0519</string>
 
 
 </resources>

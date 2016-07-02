@@ -32,7 +32,13 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.nameTextView);
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.addressTextView);
 
-        imageView.setImageResource(currentPlace.getThumbResourceId());
+
+        if (currentPlace.hasImage()) {
+            imageView.setImageResource(currentPlace.getImageResourceId());
+        } else {
+            View imageViewContainerView = (View) listItemView.findViewById(R.id.imageViewContainerView);
+            imageViewContainerView.setVisibility(View.GONE);
+        }
 
         nameTextView.setText(currentPlace.getName());
         addressTextView.setText(currentPlace.getAddress());

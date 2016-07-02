@@ -23,6 +23,8 @@ public class PlacesFragmentPagerAdapter extends FragmentPagerAdapter {
                 return new ParksFragment();
             case 2:
                 return new RestaurantsFragment();
+            case 3:
+                return new ShoppingFragment();
             default:
                 return null;
         }
@@ -30,7 +32,7 @@ public class PlacesFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     @Override
@@ -43,6 +45,8 @@ public class PlacesFragmentPagerAdapter extends FragmentPagerAdapter {
                 return "PARKS";
             case 2:
                 return "RESTAURANTS";
+            case 3:
+                return "SHOPPING";
             default:
                 return super.getPageTitle(position);
         }

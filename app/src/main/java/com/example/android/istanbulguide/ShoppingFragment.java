@@ -12,48 +12,43 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.example.android.istanbulguide.R;
-
 import java.util.ArrayList;
 
 /**
- * Fragment that displays Restaurants and coffeehouses
+ * A simple {@link Fragment} subclass.
+ * Activities that contain this fragment must implement the
+ * {@link ShoppingFragment.OnFragmentInteractionListener} interface
+ * to handle interaction events.
+ * Use the {@link ShoppingFragment#newInstance} factory method to
+ * create an instance of this fragment.
  */
-public class RestaurantsFragment extends Fragment {
+public class ShoppingFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_restaurants, container, false);
+        View view = inflater.inflate(R.layout.fragment_shopping, container, false);
 
         final ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place(getResources().getString(R.string.restaurant_name_1),
-                getResources().getString(R.string.restaurant_address_1),
-                getResources().getString(R.string.restaurant_description_1),
+        places.add(new Place(getResources().getString(R.string.shopping_name_1),
+                getResources().getString(R.string.shopping_address_1),
+                getResources().getString(R.string.shopping_description_1),
                 Place.NO_IMAGE_PROVIDED,
                 Place.NO_IMAGE_PROVIDED,
-                getResources().getString(R.string.restaurant_lat_1),
-                getResources().getString(R.string.restaurant_lng_1)
+                getResources().getString(R.string.shopping_lat_1),
+                getResources().getString(R.string.shopping_lng_1)
         ));
 
-        places.add(new Place(getResources().getString(R.string.restaurant_name_2),
-                getResources().getString(R.string.restaurant_address_2),
-                getResources().getString(R.string.restaurant_description_2),
+        places.add(new Place(getResources().getString(R.string.shopping_name_2),
+                getResources().getString(R.string.shopping_address_2),
+                getResources().getString(R.string.shopping_description_2),
                 Place.NO_IMAGE_PROVIDED,
                 Place.NO_IMAGE_PROVIDED,
-                getResources().getString(R.string.restaurant_lat_2),
-                getResources().getString(R.string.restaurant_lng_2)
+                getResources().getString(R.string.shopping_lat_2),
+                getResources().getString(R.string.shopping_lng_2)
         ));
 
-        places.add(new Place(getResources().getString(R.string.restaurant_name_3),
-                getResources().getString(R.string.restaurant_address_3),
-                getResources().getString(R.string.restaurant_description_3),
-                Place.NO_IMAGE_PROVIDED,
-                Place.NO_IMAGE_PROVIDED,
-                getResources().getString(R.string.restaurant_lat_3),
-                getResources().getString(R.string.restaurant_lng_3)
-        ));
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
         ListView listView = (ListView) view.findViewById(R.id.listView);
